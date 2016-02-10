@@ -1,0 +1,444 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Red Rocket Real Estate</title>
+
+<style type="text/css" media="screen">
+    @import url("public/css/main.css");
+    @import url("public/css/jquery.selectbox.css"); 
+</style>
+
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="public/images/favicon.ico" type="image/x-icon" />
+<link href='http://fonts.googleapis.com/css?family=Capriola' rel='stylesheet' type='text/css'/>
+
+<script type="text/javascript" src="public/js/jquery.min.js"></script>
+<script type="text/javascript" src="public/js/jquery.tools.min.js"></script>
+<script type="text/javascript" src="public/js/jquery.selectbox.js"></script>
+<script type="text/javascript" src="public/js/main.js"></script>
+
+</head>
+<body>
+    <!-- Page -->
+    <div id="page">
+    
+    	<!-- Header -->
+    	<div id="header">
+    		<div class="main">
+    			<div class="logo">
+					<h1><a href="index.html"><img src="public/images/logotype.gif" alt="Red Rocket Real Estate" /></a></h1>
+				</div>
+				<div class="phone">
+					<p>13000 Rocket<span>76253</span></p>
+				</div>
+				<div class="main-menu">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About us</a></li>
+						<li class="active"><a href="#">Buy</a></li>
+						<li><a href="#">Sell</a></li>
+						<li><a href="#">Rent</a></li>
+						<li><a href="#">Forms</a></li>
+						<li><a href="#">Faqs</a></li>
+						<li><a href="#">Suburb info</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					<div class="relax">&nbsp;</div>	
+				</div>
+				<div class="relax">&nbsp;</div>	
+    		</div>
+    	</div>
+    	
+    	<!-- Content -->
+    	<div id="content">
+    		<div class="top-line">
+    			<div class="main">
+    				<div class="social">
+    					<ul>
+    						<li><a href="http://youtube.com/"><span>Youtube</span></a></li>
+    						<li class="twitter"><a href="http://twitter.com/"><span>Twitter"</span></a></li>
+    						<li class="facebook"><a href="http://facebook.com/"><span>Facebook</span></a></li>
+    						<li class="linkedin"><a href="http://linkedin.com/"><span>Linkedin</span></a></li>
+    					</ul>
+    					<div class="relax">&nbsp;</div>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="main">
+    			<div class="breadcrumbs">
+    				<ul>
+    					<li><a href="#">BUY/</a></li>
+    					<li><a href="#">Properties/</a></li>
+    					<li>Houses</li>
+    				</ul>	
+    			</div>
+    			<div class="sidebar">
+    				<div class="submenu">
+    					<ul>
+    						<li><a href="#">Properties</a></li>
+    						<li><a href="#">Morgage Calculator</a></li>
+    						<li><a href="#">Auctions</a></li>
+    						<li class="active"><a href="#">Stamp Duty</a></li>
+    						<li><a href="#">Recent Sales</a></li>
+    						<li><a href="#">Buyer Enquiry</a></li>
+    					</ul>
+    				</div>
+    				<h3>Search Properties</h3>
+    				<form action="#">
+						<div class="search">
+							<div class="radio-area">
+								<span><label for="buy">BUY</label>
+								<input type="radio" id="buy" name="type" value="Buy" checked="checked"/></span>
+								<span><label for="rent">RENT</label>
+								<input type="radio" id="rent" name="type" value="Rent" /></span>
+							</div>	
+							<div class="select-area suburb">
+								<label for="suburb">Suburb</label>
+								<select id="suburb" name="suburb">
+									<option>Any Suburb</option>
+									<option>Bethania (1)</option>
+									<option>Calamvale (1)</option>
+									<option>Cornubia (1)</option>
+									<option>Daisy Hill (1)</option>
+								</select>
+							</div>
+							<div class="select-area property-type">
+								<label for="property-type">Property Type</label>
+								<select id="property-type" name="property-type">
+									<option>Any Property Type</option>
+									<option>Commercial (1)</option>
+									<option>House (72)</option>
+									<option>Unit/Townhouse/Duplex (12)</option>
+									<option>Vacant land/acreage (2)</option>
+								</select>
+							</div>	
+							<div class="right">
+								<div class="select-area min-price">
+									<label for="min-price">Min. Price</label>
+									<select id="min-price" name="min-price">
+										<option>Item 1</option>
+										<option>Item 2</option>
+										<option>Item 3</option>
+										<option>Item 4</option>
+									</select>
+								</div>	
+								<div class="select-area carspaces">
+									<label for="carspaces">Car Spaces</label>
+									<select id="carspaces" name="carspaces">
+										<option>Item 1</option>
+										<option>Item 2</option>
+										<option>Item 3</option>
+										<option>Item 4</option>
+									</select>
+								</div>
+							</div>
+							<div class="left">
+								<div class="select-area max-price">
+									<label for="max-price">Max. Price</label>
+									<select id="max-price" name="max-price">
+										<option>Item 1</option>
+										<option>Item 2</option>
+										<option>Item 3</option>
+										<option>Item 4</option>
+									</select>
+								</div>	
+								<div class="select-area bedrooms">
+									<label for="bedrooms">Bedrooms</label>
+									<select id="bedrooms" name="bedrooms">
+										<option>Item 1</option>
+										<option>Item 2</option>
+										<option>Item 3</option>
+										<option>Item 4</option>
+									</select>
+								</div>
+							</div>
+							<div class="relax">&nbsp;</div>
+							<div class="button-arrow">
+								<button type="submit">SEARCH</button>
+								<span>&nbsp;</span>
+							</div>
+						</div>	
+					</form>
+					<div class="small-box">
+						<img src="public/images/pictures/rocket.png" alt="Rocket" />
+						<h2>Real People</h2>
+						<h2>Real Lives</h2>
+						<h2>Real Estate</h2>
+						<div class="testimonials-rotator" id="testimonials-rotator">
+							<ul class="images-area">
+								<li>
+									<div class="txt">
+										<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et 
+										dolore magna aliqua. Ut enim ad minim"
+										</p>
+									</div>
+									<a href="#">
+										<img src="public/images/pictures/photo.jpg" alt="Photo" />
+										Vincent &amp; Michelle Faucon
+									</a>
+									<a href="#" class="more">More testimonials</a>
+									<div class="relax">&nbsp;</div>
+								</li>
+								<li>
+									<div class="txt">
+										<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et 
+										dolore magna aliqua. Ut enim ad minim"
+										</p>
+									</div>
+									<a href="#">
+										<img src="public/images/pictures/photo.jpg" alt="Photo" />
+										Vincent &amp; Michelle Faucon
+									</a>
+									<a href="#" class="more">More testimonials</a>
+									<div class="relax">&nbsp;</div>
+								</li>
+								<li>
+									<div class="txt">
+										<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun ut labore et 
+										dolore magna aliqua. Ut enim ad minim"
+										</p>
+									</div>
+									<a href="#">
+										<img src="public/images/pictures/photo.jpg" alt="Photo" />
+										Vincent &amp; Michelle Faucon
+									</a>
+									<a href="#" class="more">More testimonials</a>
+									<div class="relax">&nbsp;</div>
+								</li>
+							</ul>
+							<div class="navigation">
+								<ul>
+								   	<li><a href="#">1</a></li>
+								    <li><a href="#">2</a></li>
+								    <li><a href="#">3</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+    			</div>
+    			<div class="main-content">
+    				<div class="pager">
+    					<p>Showing 1 of 12</p>
+    					<ul>
+							<li><a href="#">1</a></li>  
+							<li><a href="#">2</a></li> 
+							<li><a href="#">3</a></li> 
+							<li><a href="#">4</a></li> 
+							<li><a href="#">LAST</a></li>   				
+    					</ul>
+    				</div>	
+    				<h4>Houses</h4>
+    				<form action="#">
+						<div class="sort">
+							<label for="sort-by">Sort by</label>
+							<select id="sort-by" name="sort-by">
+								<option>price</option>
+								<option>Item 1</option>
+								<option>Item 2</option>
+								<option>Item 3</option>
+							</select>
+							<div class="relax">&nbsp;</div>
+						</div>	
+					</form>
+    				<div class="house">
+    					<ul>
+    						<li>
+    							<div class="border">
+	    							<a href="#"><img src="public/images/pictures/img7.jpg" alt="Picture" /></a>
+    							</div>
+    							<div class="description">
+	    							<h5><a href="#">11A Riverbreeze Avenue, Noosaville, Qld 4566</a></h5>
+	    							<span>$650.000+</span>
+	    							<ul>
+	    								<li class="bed">2</li>
+	    								<li class="bathroom">3</li>
+	    								<li class="car">1</li>
+	    							</ul>
+	    							<p>Immediately you enter this beautifully appointed home, you know you're somewhere special. Three levels of 
+	    							perfection in a rendered cement block and Colorbond home on 1925 sq m atop the Kimberley Plateau offers you 
+	    							the ultimate entertainer home with ample space for your growing family.</p>
+	    							<a href="#" class="btn">ENQUIRE</a>
+	    							<a href="#" class="btn">MORE INFO</a>
+	    						</div>	
+    						</li>
+    						<li>
+    							<div class="border">
+	    							<a href="#"><img src="public/images/pictures/img7.jpg" alt="Picture" /></a>
+    							</div>
+    							<div class="description">
+	    							<h5><a href="#">11A Riverbreeze Avenue, Noosaville, Qld 4566</a></h5>
+	    							<span>$650.000+</span>
+	    							<ul>
+	    								<li class="bed">2</li>
+	    								<li class="bathroom">3</li>
+	    								<li class="car">1</li>
+	    							</ul>
+	    							<p>Immediately you enter this beautifully appointed home, you know you're somewhere special. Three levels of 
+	    							perfection in a rendered cement block and Colorbond home on 1925 sq m atop the Kimberley Plateau offers you 
+	    							the ultimate entertainer home with ample space for your growing family.</p>
+	    							<a href="#" class="btn">ENQUIRE</a>
+	    							<a href="#" class="btn">MORE INFO</a>
+	    						</div>	
+    						</li>
+    						<li>
+    							<div class="border">
+	    							<a href="#"><img src="public/images/pictures/img7.jpg" alt="Picture" /></a>
+    							</div>
+    							<div class="description">
+	    							<h5><a href="#">11A Riverbreeze Avenue, Noosaville, Qld 4566</a></h5>
+	    							<span>$650.000+</span>
+	    							<ul>
+	    								<li class="bed">2</li>
+	    								<li class="bathroom">3</li>
+	    								<li class="car">1</li>
+	    							</ul>
+	    							<p>Immediately you enter this beautifully appointed home, you know you're somewhere special. Three levels of 
+	    							perfection in a rendered cement block and Colorbond home on 1925 sq m atop the Kimberley Plateau offers you 
+	    							the ultimate entertainer home with ample space for your growing family.</p>
+	    							<a href="#" class="btn">ENQUIRE</a>
+	    							<a href="#" class="btn">MORE INFO</a>
+	    						</div>	
+    						</li>
+    						<li>
+    							<div class="border">
+	    							<a href="#"><img src="public/images/pictures/img7.jpg" alt="Picture" /></a>
+    							</div>
+    							<div class="description">
+	    							<h5><a href="#">11A Riverbreeze Avenue, Noosaville, Qld 4566</a></h5>
+	    							<span>$650.000+</span>
+	    							<ul>
+	    								<li class="bed">2</li>
+	    								<li class="bathroom">3</li>
+	    								<li class="car">1</li>
+	    							</ul>
+	    							<p>Immediately you enter this beautifully appointed home, you know you're somewhere special. Three levels of 
+	    							perfection in a rendered cement block and Colorbond home on 1925 sq m atop the Kimberley Plateau offers you 
+	    							the ultimate entertainer home with ample space for your growing family.</p>
+	    							<a href="#" class="btn">ENQUIRE</a>
+	    							<a href="#" class="btn">MORE INFO</a>
+	    						</div>	
+    						</li>												
+    					</ul>
+    				</div>
+    				<div class="pager">
+    					<p>Showing 1 of 12</p>
+    					<ul>
+							<li><a href="#">1</a></li>  
+							<li><a href="#">2</a></li> 
+							<li><a href="#">3</a></li> 
+							<li><a href="#">4</a></li> 
+							<li><a href="#">LAST</a></li>   				
+    					</ul>
+    				</div>	
+    			</div>	
+    			<div class="relax">&nbsp;</div>
+    			<div class="area">
+    				<div class="rotator-small" id="rotator">
+    					<ul class="images">
+    						<li>
+    							<a href="#"><img src="public/images/pictures/img4.jpg" alt="Picture" /></a>
+    							<span>Ashgrove</span>
+    						</li>
+    						<li>
+    							<a href="#"><img src="public/images/pictures/img5.jpg" alt="Picture" /></a>
+    							<span>Ashgrove</span>
+    						</li>
+    						<li>
+    							<a href="#"><img src="public/images/pictures/img6.jpg" alt="Picture" /></a>
+    							<span>Ashgrove</span>
+    						</li>
+    					</ul>
+    					<a class="backward prev"><span>Previous</span></a>
+    					<a class="forward next"><span>Next</span></a>
+   						<div class="nav">
+							<ul>
+							   	<li><a href="#">1</a></li>
+							    <li><a href="#">2</a></li>
+							    <li><a href="#">3</a></li>
+							</ul>
+						</div>
+    				</div>
+    				<div class="contact-form">
+    					<h6>LET'S KEEP IN TOUCH</h6>
+    					<p>Send us a message and we will get back to you as soon as possible</p>
+    					<form action="#">
+							<div class="message">
+								<textarea rows="5" cols="5" id="message" name="message" title="Enquiry:">Enquiry:</textarea>
+								<button type="submit">SUBMIT</button>
+								<input type="text" id="name" name="name" value="Name:" class="auto-hint" title="Name:"/>
+								<input type="text" id="email" name="email" value="Email:" class="auto-hint" title="Email:"/>
+								<input type="text" id="mobile" name="mobile" value="Mobile:" class="auto-hint" title="Mobile:"/>
+								<select id="suburb-mess" name="suburb-mess">
+									<option>Suburb</option>
+									<option>Item 2</option>
+									<option>Item 3</option>
+									<option>Item 4</option>
+								</select>
+							</div>		
+						</form>
+    				</div>
+    				<div class="relax">&nbsp;</div>
+    			</div>
+    		</div>
+    		<div class="relax">&nbsp;</div>
+    	</div>
+    	
+    	<!-- Footer -->
+    	<div id="footer">
+    		<div class="main">
+    			<img src="public/images/icons/rocket.png" alt="Rocket" class="rocket"/>
+    			<div class="box">
+	    			<h6>Red rocket</h6>
+	    			<ul class="address">
+	    				<li>67 Springwood rd, Springwood QLD 4127</li>
+	    				<li class="phone-bottom">13000 76253</li>
+	    				<li class="mail"><a href="mailto:info@redrocketrealestate.com.au">info@redrocketrealestate.com.au</a> <a href="mailto:info@redrocketrealestate.com.au" class="email">Email Us</a></li>
+	    			</ul>
+	    			<ul class="social">
+	    				<li><a href="http://youtube.com/"><span>Youtube</span></a></li>
+	    				<li class="twitter"><a href="http://twitter.com/"><span>Twitter</span></a></li>
+	    				<li class="facebook"><a href="http://facebook.com/"><span>facebook</span></a></li>
+	    				<li class="linkedin"><a href="http://linkedin.com/"><span>Linkedin</span></a></li>
+	    			</ul>
+	    			<div class="relax">&nbsp;</div>
+    				<p>Copyright &copy; 2012 - All rights reserved - <a href="#">Terms &amp; Conditions</a> - <a href="#">Privacy</a></p>
+    				<p><a href="#">Website Design Company</a> - <a href="">SEO Company</a></p>
+    			</div>
+    			<div class="box right">
+    				<h6>Latest posts</h6>
+	    			<div class="news-feed">
+		    			<ul>
+		    				<li>
+		    					<a href="#">
+		    						<img src="public/images/pictures/pic-4.jpg" alt="Picture" />
+		    						Consolidate &amp; Reduce Your Debts
+		    					</a>
+		    				</li>
+		    				<li>
+		    					<a href="#">
+		    						<img src="public/images/pictures/pic-5.jpg" alt="Picture" />
+		    						Moving Homes?
+		    					</a>
+		    				</li>
+		    			</ul>
+		    			<div class="relax">&nbsp;</div>
+		    		</div>	
+		    		<ul>
+		    			<li><a href="#">Sitemap</a></li>
+		    			<li><a href="#">Buy</a></li>
+		    			<li><a href="#">Sell</a></li>
+		    			<li><a href="#">Rent</a></li>
+		    			<li><a href="#">Suburb Info</a></li>
+		    			<li><a href="#">FAQs</a></li>
+		    			<li><a href="#">Forms</a></li>
+		    		</ul>
+    			</div>
+    		</div>
+    		<div class="relax">&nbsp;</div>
+    	</div>
+    </div>
+</body>
+</html>

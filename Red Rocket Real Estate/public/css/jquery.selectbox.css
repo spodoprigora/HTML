@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+
+.jquery-selectbox {
+	color: #7D7D7D;
+	display: inline;
+	float: left;
+	height: 23px;
+	margin: 4px 4px 4px 0;
+	padding: 0;
+	position: relative;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: 0;
+	width: 204px !important;
+	background: url("../images/bg/select-bg.gif") no-repeat left top;
+}
+.message .jquery-selectbox , #content.version2 .jquery-selectbox {
+	background: #FCFCFC;
+	border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;   
+	behavior: url("./public/css/PIE.htc");
+    position: relative;
+	zoom: 1; 
+	color: #989898;
+	font-family: 'Capriola', verdana, san-serif;
+	width: 90px !important;
+	margin-top: 0;
+}
+.message .jquery-selectbox .jquery-selectbox-list, #content.version2 .jquery-selectbox  .jquery-selectbox-list{
+	width: 88px !important;
+	background: #fff
+}
+.message .jquery-selectbox .jquery-selectbox-moreButton, #content.version2 .jquery-selectbox .jquery-selectbox-moreButton  { background: url("../images/bg/select-mess-arrow.gif") no-repeat left top; }
+.sort .jquery-selectbox { width: 176px !important; }
+.sort .jquery-selectbox .jquery-selectbox-list{ width: 174px !important; }
+.right .jquery-selectbox, .left .jquery-selectbox  {
+	width: 90px !important;
+	margin-bottom: 11px;	
+}
+#content.version2  .jquery-selectbox {
+	width: 118px !important;
+	background: #fff;
+	float: right;
+	margin-right: 174px;
+}
+#content.version2  .jquery-selectbox .jquery-selectbox-list {
+	width: 116px !important;
+	font-size: 12px;
+	font-style: italic;
+}
+#content.version2  .jquery-selectbox .jquery-selectbox-currentItem {
+	font-size: 11px;
+	font-style: italic;
+	padding: 5px 0 3px 6px;
+}
+.select-area.state .jquery-selectbox { width: 77px !important; }
+.select-area.purpose .jquery-selectbox {
+	width: 106px !important;
+	margin-right: 0;
+}
+.select-area.state .jquery-selectbox .jquery-selectbox-list { width: 75px !important; }
+.select-area.purpose .jquery-selectbox .jquery-selectbox-list { width: 104px !important; }
+.right .jquery-selectbox .jquery-selectbox-list, .left .jquery-selectbox .jquery-selectbox-list { width: 88px !important; }
+.boxes .jquery-selectbox {
+	width: 20px !important;
+	height: 36px;
+	background: url("../images/bg/select-bg-large.jpg") no-repeat left top;
+}
+.jquery-selectbox .jquery-selectbox-currentItem {
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+	padding: 4px 0 3px 6px;
+	font-size: 14px;
+}
+.boxes .jquery-selectbox .jquery-selectbox-currentItem { padding-top: 8px; }
+.jquery-selectbox .jquery-selectbox-list {
+	background: #E9E9E9;
+	border: 1px solid #7d7d7d;
+	display: none;
+	height: auto !important;
+	left: -1px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 0;
+	position: absolute;
+	top: 25px;
+	width: 202px !important;
+	z-index: 1000;
+	font-size: 14px;
+}
+.boxes .jquery-selectbox .jquery-selectbox-list {
+	width: 257px !important;
+	top: 35px;
+}
+.jquery-selectbox .jquery-selectbox-moreButton {
+	float: right;
+	background: url("../images/bg/select-arrow.gif") no-repeat left top;
+	width: 18px;
+	height: 23px;
+	cursor: pointer;
+}
+.boxes .jquery-selectbox .jquery-selectbox-moreButton {
+	width: 31px;
+	height: 36px;
+	background: url("../images/buttons/select-arrow-large.gif") no-repeat left top;
+}
+.jquery-selectbox .jquery-selectbox-item.listelementhover {
+	color: #FFF;
+	background: #9b9b9b;
+}
+.jquery-selectbox .jquery-selectbox-item {
+	display: block;
+	cursor: default;
+	padding: 2px 0 2px 6px;
+}
+/** ERROR classes **/
+form .error .jquery-selectbox {
+	color: #d00;
+	border-color: #d00;
+	background-image: url("../img/bg-TextFieldError.gif");
+}

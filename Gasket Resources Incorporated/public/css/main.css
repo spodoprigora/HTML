@@ -1,0 +1,348 @@
+@font-face {
+    font-family: "Swis721ExBT Roman"; 
+	src: url( "../fonts/swiss_721_extended_bt1-webfont.eot" );
+	src: local("Swis721ExBT Roman"), 
+		 url("../fonts/swiss_721_extended_bt1-webfont.ttf") format("truetype"),
+		 url("../fonts/swiss_721_extended_bt1-webfont.woff") format('woff'),
+		 url("../fonts/swiss_721_extended_bt1-webfont.svg#Swis721ExBTRoman") format('svg');
+}
+@font-face {
+    font-family: "Swis721LtExBT Light"; 
+	src: url( "../fonts/swiss_721_extended_bt1-webfont.eot" );
+	src: local("Swis721LtExBT Light"), 
+		 url("../fonts/swiss_721_light_extended_bt1-webfont.ttf") format("truetype"),
+		 url("../fonts/swiss_721_extended_bt1-webfont.woff") format('woff'),
+		 url("../fonts/swiss_721_extended_bt1-webfont.svg#Swis721LtExBTLight") format('svg');
+}
+BODY {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFF url("../images/bg/body-bg.gif") no-repeat center top;
+}
+BODY.bg { background-position: center -160px;}
+A { text-decoration: none; }
+A:HOVER { text-decoration: underline; }
+A IMG { border: none; }
+LABEL { cursor: pointer; }
+BUTTON SPAN {
+	display: none;
+	outline: none;	
+}
+H1, H2, H3, H4, H5, H6, P, FIELDSET, FORM, UL, OL, LI, DL, DT, DD {
+	padding: 0;
+	margin: 0;
+}
+.relax {
+	clear: both;
+	height: 0;
+	line-height: 0px;
+	font-size: 1px;
+}
+#content H1, #content H2, #content H3, #content H4, #content H5, #content H6 { margin: 15px 0 0; }
+#content UL, #content OL {margin-left: 15px;}
+#content A {color: #bb9638;}
+#content P, #content UL, #content OL {
+	font-size: 17px;
+	margin: 15px 0 0 56px;
+	color: #565656;
+}
+.main-area {
+	min-width: 950px;
+	overflow: hidden;
+}
+#page {
+	width: 950px;
+	text-align: left;
+	margin: auto;
+}
+.logo {
+	margin-top: 8px;	
+	float: left;
+}
+.main-menu {
+	margin: 101px 0 0;
+	float: right;	
+	width: 665px
+}
+.main-menu UL {
+	list-style: none;
+	font-size: 17px;
+}
+.main-menu UL LI:FIRST-CHILD { background: none; }
+.main-menu UL LI:FIRST-CHILD:HOVER { background: none; }
+.main-menu UL LI {
+	display: inline;
+	float: left;
+	position: relative;
+	background: url("../images/bg/li-bg.png") no-repeat left 3px;
+	padding-left: 27px;
+}
+.main-menu UL LI:HOVER { background: url("../images/bg/li-hover-bg.png") no-repeat left 3px; }
+.main-menu UL LI A {
+	float: left;
+	padding: 0px 0 17px;
+	color: #e6e7e8;
+	margin-right: 10px;
+	outline: none;
+	font-family: "Swis721ExBT Roman", Arial, Helvetica, sans-serif;
+}
+.main-menu UL LI:HOVER A {
+	color: #bb9639;
+	text-decoration: none;
+}
+.main-menu UL LI.active { background: url("../images/bg/li-hover-bg.png") no-repeat left 3px; }
+.main-menu UL LI.active A { color: #bb9639; }
+.main-menu UL LI:HOVER UL A { background: none; }
+.sub-menu {
+	position: absolute;
+	left: -59px;
+	top: 30px;
+	
+	display: none;
+	width: 380px;
+	background: url("../images/bg/sub-mg.png") repeat left top;
+	border-left: 1px solid #DAD8D7;
+	z-index: 100;
+}
+.sub {
+	padding-top: 20px;
+	background: url("../images/bg/sub-menu-bg.png") repeat left top;
+}
+.sub-menu .column {
+	float: left;	
+	margin: 0 0 0 20px; 
+	width: 170px;
+}
+.main-menu UL LI:HOVER .sub-menu { display: block; }
+.main-menu UL LI:HOVER UL A { color: #000; }
+.main-menu UL LI UL A {
+	margin: 0;
+	width: 160px;
+	background: none;
+	color: #000;
+	font-size: 12px;
+	border-bottom: 1px solid #D7D7D7;
+	float: left;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.main-menu UL LI:HOVER UL LI UL A { color: #108172;	 }
+.main-menu UL LI UL LI UL A {
+	color: #108172;	
+	border: none;
+	padding: 0;
+}
+#header .main-menu UL LI UL LI UL LI { padding: 4px 0 0 13px; }
+.main-menu UL LI UL A:HOVER { text-decoration: none; }
+.main-menu UL LI UL LI UL LI A:HOVER { text-decoration: underline; }
+#header .main-menu UL LI UL LI {
+	background: none;
+	padding: 0 0 10px;
+}
+#content {
+	border-top: 1px solid #fff;
+	margin-top: 30px;
+	padding-top: 10px;
+}
+.line { 
+	margin: -66px 0 65px;
+	background: url("../images/bg/line-bg.png") no-repeat 2px top;
+	height: 78px;	
+	position: relative;
+	z-index: 98;
+}
+.description {
+	position: absolute;
+	top: 317px;
+	left: -55px;	
+}
+.description.inner { top: 265px; }
+.circle {
+	background: url("../images/bg/circle.png") no-repeat left top;
+	width: 180px;
+	height: 217px;	
+	padding: 59px 35px 10px 54px;
+	color: #fff;
+	font-size: 18px;
+	float: left;
+	position: relative;
+}
+.rectangle {
+	width: 435px;
+	height: 64px;	
+	background: url("../images/bg/rectangl.png") no-repeat left top;
+	font-size: 26px;
+	margin: 103px 0 0 190px;
+	padding: 14px 0 0 117px;
+	font-family: "Swis721LtExBT Light", Arial, Helvetica, sans-serif;
+}
+#content .links {
+	float: right;
+	width: 690px;
+	margin-right: -90px;
+	font-family: "Swis721ExBT Roman", Arial, Helvetica, sans-serif;
+}
+#content .links UL {
+	list-style: none;
+	margin: 0;
+	font-size: 24px;
+	color: #000;
+}
+#content .links UL LI {
+	padding: 80px 0 80px 140px;
+	background: url("../images/pictures/pic-1.png") no-repeat left top;
+	margin-top: -50px;
+}
+#content .links UL LI A {
+	border-bottom: 1px solid #d6c088;
+	color: #000;
+	padding-left: 40px;
+}
+#content .links UL LI A:HOVER {text-decoration: none; }
+#content .links UL LI.indent {margin-left: 150px; }
+#content .links UL LI.pulp { background-image: url("../images/pictures/pic-2.png"); }
+#content .links UL LI.rail { background-image: url("../images/pictures/pic-3.png"); }
+#content .links UL LI.power { background-image: url("../images/pictures/pic-4.png"); }
+#content .links UL LI.water {
+	background-image: url("../images/pictures/pic-5.png");
+	padding-left: 150px;	
+}
+#content .links UL LI.fda { background-image: url("../images/pictures/pic-6.png"); }
+#content H3 {
+	font-size: 22px;
+	font-weight: normal;
+	font-family: "Swis721ExBT Roman", Arial, Helvetica, sans-serif;
+}
+.search {
+	border-top: 1px solid #d6c088;
+	border-bottom: 1px solid #d6c088; 
+	padding: 25px 0;
+	margin: 22px 75px 25px 0;
+}
+.search .input-bg {
+	width: 135px;
+	height: 29px;
+	float: left;
+	background: url("../images/bg/input-bg.gif") no-repeat left top;
+}
+.search .input-bg INPUT {
+	background: none;
+	border: none;
+	outline: none;
+	width: 122px;
+	margin: 7px 0 0 7px;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #1e8f81;
+	outline: none;
+}
+.search BUTTON {
+	float: left;
+	width: 23px;
+	height: 29px;
+	cursor: pointer;
+	border: none;
+	background: url("../images/buttons/search.gif") no-repeat left top;
+	outline: none;
+}
+#content .sidebar {
+	float: left;
+	width: 255px;
+	margin-left: 56px;
+}
+#content H2{
+	font-size: 48px;
+	color: #bb9639;
+	font-weight: normal;
+	font-family: "Swis721LtExBT Light", Arial, Helvetica, sans-serif;
+	margin-left: 56px;
+}
+#content .check A:HOVER { text-decoration: underline; }
+
+#footer {
+	border-top: 2px solid #bb9639;
+	padding: 20px 0 20px 178px;
+	color: #565656;
+}
+#footer .box {
+	float: left;
+	margin-right: 45px;
+	width: 175px;
+}
+#footer H3 {
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#footer P {
+	font-size: 14px;
+	color: #888;
+	margin-bottom: 10px;
+}
+#footer P STRONG {
+	font-weight: bold;
+	color: #000;
+}
+#footer .copyright {
+	float: right;
+	margin-top: -24px;
+	width: 538px;
+}
+#footer A {
+	color: #000;
+	text-decoration: none;
+}
+#footer A:HOVER { text-decoration: underline; }
+#content { padding-bottom: 38px; }
+#content .sidebar P {
+	font-size: 17px;
+	padding-right: 50px;
+	margin: 0;
+}
+#content .sidebar H4 {
+	font-size: 18px;
+	color: #0f675b;
+	margin: 100px 0 10px 0;
+	font-weight: normal;
+	font-family: "Swis721LtExBT Light", Arial, Helvetica, sans-serif; 
+}
+#content .sidebar UL {
+	margin-left: 0px;
+	font-size: 13px;
+}
+#content .sidebar UL LI {
+	list-style: none;
+	margin-top: 5px;	
+}
+#content .sidebar UL LI A {
+	color: #888;
+	display: block;
+}
+#content .main-content {
+	width: 610px;
+	float: right;
+	margin-right: 22px;
+	margin-top: -76px;
+}
+#content .main-content P {
+	font-size: 17px;
+	margin: 0 0 15px 0;
+	line-height: 25px;
+}
+#content .main-content H2 { margin: 0 0 39px 0; }
+#content .check {
+	float: right;
+	width: 360px;
+	margin-left: 10px;
+	margin-top: 28px;
+}
+#content .check A {
+	font-size: 24px;
+	font-family: "Swis721LtExBT Light", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+#content .check A:HOVER { text-decoration: underline; }
+.cont {position: relative; z-index: 99;}
